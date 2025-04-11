@@ -1,0 +1,29 @@
+# Ignore Arduino build files
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.d
+*.dep
+*.o
+*.a
+
+# Ignore backup files
+*~
+*.swp
+*.bak
+
+# Mac/Linux hidden files
+.DS_Store
+
+# Arduino-specific folders
+.build/
+.pio/
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Sketchbook config
+*.sketchbook.json
