@@ -22,10 +22,8 @@ Enter **PhantomKey**. Plug it into any USB port and let it silently spoof an `En
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="img/20250407_212854.JPG" width="400">
-  <img src="img/20250408_140839.JPG" width="400">
-</p>
+<img src="img/bios-error.jpg" width="800"><br><br>
+<img src="img/system-information.jpg" width="800">
 
 ---
 
