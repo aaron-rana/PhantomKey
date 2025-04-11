@@ -3,7 +3,14 @@
 
 # 👻 PhantomKey
 
-**Pressing Enter from beyond the BIOS...**
+# 👻 PhantomKey
+
+![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)  
+![Platform: Seeed XIAO SAMD21](https://img.shields.io/badge/Platform-XIAO_SAMD21-blue)
+![Language: Arduino](https://img.shields.io/badge/Language-Arduino-orange)
+
+**Pressing Enter from beyond the BIOS...**  
+🩹 *“Patching up problems that shouldn’t need patching in the first place.”*
 
 PhantomKey is a tiny USB gadget based on the Seeed XIAO SAMD21 that spoofs a keyboard to automatically bypass BIOS errors like "Chassis Fan Not Detected" by pressing Enter at just the right time — completely hands-free.
 
