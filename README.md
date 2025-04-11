@@ -52,19 +52,23 @@ Enter **PhantomKey**. Plug it into any USB port and let it silently spoof an `En
 ---
 
 ## 🧪 How It Works
+
 PhantomKey runs through timed stages with LED indicators:
 
-⏱ T+10s → Press Enter
-🔵 TX LED turns on
-⏱ T+15s → Press Enter again
-🔵 RX LED turns on
-⏱ T+45s → Eject HID & fast-blink orange LED ×2
-🟠 Fast blink ×2
-Stop HID, detach USB
-All LEDs off
-⏱ T+50s → Enter deep sleep & fast-blink orange LED ×3
-🟠 Fast blink ×3
-Enters low-power mode
+- ⏱ **T+10s** → Press `Enter`  
+  - 🔵 TX LED turns on
+
+- ⏱ **T+15s** → Press `Enter` again  
+  - 🔵 RX LED turns on
+
+- ⏱ **T+45s** → Eject HID & fast-blink orange LED ×2  
+  - 🟠 Fast blink ×2  
+  - Stop HID, detach USB  
+  - All LEDs off
+
+- ⏱ **T+50s** → Enter deep sleep & fast-blink orange LED ×3  
+  - 🟠 Fast blink ×3  
+  - Enters low-power mode
 
 No user input required.
 
