@@ -53,10 +53,31 @@ Enter **PhantomKey**. Plug it into any USB port and let it silently spoof an `En
 
 ## 🧪 How It Works
 
-1. Wait 10s → press Enter.
-2. Wait 5s → press Enter again (some BIOSes double-check).
-3. Wait 30s → disconnect USB, turn off LEDs.
-4. Enter deep sleep mode.
+PhantomKey goes through a few timed stages, each marked by LED indicators:
+
+Stage 1 – First Enter key press
+⏱️ After a configurable delay (default: 10 seconds), PhantomKey sends an Enter keystroke. Blue LED 1 (TX) turns on.
+
+Stage 2 – Second Enter key press
+⏱️ After a second delay (default: 5 seconds later), it sends Enter again. Blue LED 2 (RX) turns on.
+
+Eject Sequence – Fast Blink x2
+⏱️ After a third delay (default: 30 seconds after the second keypress), it:
+
+Fast-blinks the orange LED twice
+
+Calls usb_hid.end() to stop HID
+
+Detaches from USB with TinyUSBDevice.detach()
+
+Turns off all LEDs
+
+Sleep Sequence – Fast Blink x3
+⏱️ After a short post-eject delay (default: 5 seconds), it:
+
+Fast-blinks the orange LED three times
+
+Enters deep sleep using __WFI() to conserve power
 
 No user input required.
 
