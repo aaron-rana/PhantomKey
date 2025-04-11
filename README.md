@@ -40,7 +40,7 @@ Enter **PhantomKey**. Plug it into any USB port and let it silently spoof an `En
 
 ## 🛠️ Hardware Used
 
-- [Seeed Studio XIAO SAMD21](https://wiki.seeedstudio.com/XIAO_SAMD21/)
+- [Seeed Studio XIAO SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/)
 - 3x LEDs (TX, RX, Status)
 - Optional: USB extension cable
 
