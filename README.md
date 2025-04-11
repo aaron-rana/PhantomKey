@@ -20,6 +20,15 @@ Enter **PhantomKey**. Plug it into any USB port and let it silently spoof an `En
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="img/20250407_212854.JPG" width="400">
+  <img src="img/20250408_140839.JPG" width="400">
+</p>
+
+---
+
 ## ⚙️ Features
 
 - ⌨️ USB HID keyboard emulation
@@ -67,10 +76,3 @@ Use it freely. No attribution needed. No strings attached.
 ![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)
 
 ---
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="img/20250407_212854.JPG" width="400">
-  <img src="img/20250408_140839.JPG" width="400">
-</p>
