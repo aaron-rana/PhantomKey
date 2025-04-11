@@ -3,11 +3,9 @@
 
 # 👻 PhantomKey
 
-# 👻 PhantomKey
-
-![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)  
-![Platform: Seeed XIAO SAMD21](https://img.shields.io/badge/Platform-XIAO_SAMD21-blue)
-![Language: Arduino](https://img.shields.io/badge/Language-Arduino-orange)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Platform: Seeed XIAO SAMD21](https://img.shields.io/badge/Platform-XIAO_SAMD21-blue)](https://wiki.seeedstudio.com/Seeeduino-XIAO/)
+[![Language: Arduino](https://img.shields.io/badge/Language-Arduino-orange)](https://www.arduino.cc/)
 
 **Pressing Enter from beyond the BIOS...**  
 🩹 *“Patching up problems that shouldn’t need patching in the first place.”*
