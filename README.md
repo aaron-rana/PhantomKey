@@ -52,32 +52,19 @@ Enter **PhantomKey**. Plug it into any USB port and let it silently spoof an `En
 ---
 
 ## 🧪 How It Works
+PhantomKey runs through timed stages with LED indicators:
 
-PhantomKey goes through a few timed stages, each marked by LED indicators:
-
-Stage 1 – First Enter key press
-⏱️ After a configurable delay (default: 10 seconds), PhantomKey sends an Enter keystroke. Blue LED 1 (TX) turns on.
-
-Stage 2 – Second Enter key press
-⏱️ After a second delay (default: 5 seconds later), it sends Enter again. Blue LED 2 (RX) turns on.
-
-Eject Sequence – Fast Blink x2
-⏱️ After a third delay (default: 30 seconds after the second keypress), it:
-
-Fast-blinks the orange LED twice
-
-Calls usb_hid.end() to stop HID
-
-Detaches from USB with TinyUSBDevice.detach()
-
-Turns off all LEDs
-
-Sleep Sequence – Fast Blink x3
-⏱️ After a short post-eject delay (default: 5 seconds), it:
-
-Fast-blinks the orange LED three times
-
-Enters deep sleep using __WFI() to conserve power
+⏱ T+10s → Press Enter
+🔵 TX LED turns on
+⏱ T+15s → Press Enter again
+🔵 RX LED turns on
+⏱ T+45s → Eject HID & fast-blink orange LED ×2
+🟠 Fast blink ×2
+Stop HID, detach USB
+All LEDs off
+⏱ T+50s → Enter deep sleep & fast-blink orange LED ×3
+🟠 Fast blink ×3
+Enters low-power mode
 
 No user input required.
 
